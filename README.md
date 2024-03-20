@@ -1,12 +1,12 @@
 # Dataset-hydrocarbon-and-fuel-processing
 
-This dataset contains a total of 46 hydrocarbon and 55 jet fuel T2 relaxation curves along with their associated derived cetane numbers (DCNs). The T2 relaxation curves were probed using a compact time domain nuclear magnetic resonance (TD-NMR) system located at the University of South Carolina, Columbia, USA [1]. 
+This dataset contains a total of 101 T2 relaxation curves probed from 12 pure hydrocarbon and 15 jet fuel samples. The derived cetane number (DCN) of all samples are also provied. The T2 relaxation curves were acquired using a compact time domain nuclear magnetic resonance (TD-NMR) system located at the University of South Carolina, Columbia, USA [1]. 
 
 ## Data
 
-All of the T2 relaxation data is provided in a single excel file. The first two sheets of the excel file contain hydrocarbon and jet fuel T2 curve data, while the third sheet summarizes the DCN of samples. The codes example.m and example.py give examples of how to read data from the excel file and make some plots in MATLAB and Python, respectively. 
+All of the T2 relaxation data is provided in a single excel file. The first two sheets of the excel file contain hydrocarbon and jet fuel T2 curve data, while the third sheet summarizes the DCN of the samples. The code example.m gives an example of how to read data from the excel file and make some plots in MATLAB. 
 
-Table 1: The 12 hydrocarbon and 15 jet fuel samples used to generate datasets. Reported DCN values are subject to small uncertainties (approximately $\pm 1$).
+Table 1: The 12 hydrocarbon and 15 jet fuel samples used to generate datasets. Reported DCN values are subject to small uncertainties (approximately $\pm1$).
 <p align="center">
 <img src="images/dataTable.JPG" alt="Hydrocarbon and jet fuel samples used for dataset generation." width="400"/> <br> 
 </p>
