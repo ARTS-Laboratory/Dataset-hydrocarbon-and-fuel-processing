@@ -10,7 +10,7 @@ Author: Parker Huggins
 close all; clc;
 
 % read the hydrocarbon data
-hcData = readtable('data.xlsx','Sheet','hydrocarbons','Range','B4:AV3958');
+hcData = readtable('trainingData.xlsx','Sheet','hydrocarbons','Range','B4:AV3958');
 
 hcData = table2array(hcData); % convert table to matrix
 time = hcData(:,1);           % extract time
