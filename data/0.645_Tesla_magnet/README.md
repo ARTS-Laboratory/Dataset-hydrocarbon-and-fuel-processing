@@ -3,9 +3,9 @@ This dataset was collected using a 0.645 Tesla magnet at 27.5 MHz. It contains a
 
 ## Data
 
-All of the T2 relaxation data is provided in excels file. The first two sheets of the training and validation data excel files contain hydrocarbon and jet fuel T2 curve data. The third sheet of the training data excel file summarizes the DCN of the samples. The code example.m gives an example of how to read data and make some plots in MATLAB. 
+All of the T2 relaxation data is provided in excel files. The first two sheets of the training and validation data excel files contain hydrocarbon and jet fuel T2 curve data. The third sheet of the training data excel file summarizes the DCN of the samples. The code example.m gives an example of how to read data and make some plots in MATLAB. 
 
-Table 1: The 12 hydrocarbon and 17 jet fuel samples used to generate datasets. Reported DCN values are subject to small uncertainties (approximately $\pm1$) $^\ast$Reprobed for validation data. $^\dagger$Test samples.
+Table 1: The 12 hydrocarbon and 17 jet fuel samples used to generate datasets. Reported DCN values are subject to small uncertainties (approximately $\pm1$). $^\ast$ Reprobed for validation data. $^\dagger$ Test samples.
 <p align="center">
 <img src="../../images/dataTable.JPG" alt="Hydrocarbon and jet fuel samples used for dataset generation." width="400"/> <br> 
 </p>
